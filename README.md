@@ -63,8 +63,8 @@ Each server follows the **MCP (Model Context Protocol)** and can be used with an
 
 ### 1. Clone
 ```bash
-git clone https://github.com/vakandi/outils-trading.git
-cd outils-trading
+git clone https://github.com/TMSSS05/Outils-Trading.git
+cd Outils-Trading
 ```
 
 ### 2. Start a server
@@ -83,7 +83,7 @@ Add the server to your MCP config (e.g., `mcp_servers.json`):
     "crypto-market-free-mcp": {
       "command": "uv",
       "args": [
-        "--directory", "/path/to/outils-trading/crypto-market-free-mcp",
+        "--directory", "/path/to/Outils-Trading/crypto-market-free-mcp",
         "run", "python", "main.py"
       ],
       "transport": "stdio-python",
@@ -152,7 +152,7 @@ Each server has its own documentation file in the [`docs/`](./docs/) directory:
                                │ MCP stdio protocol
                                ▼
      ┌─────────────────────────────────────────────┐
-     │              outils-trading/                 │
+     │            outils-trading/                   │
      ├──────────────────┬────────────────┬─────────┤
      │ Derivatives      │ Market         │ Macro   │
      │ Free MCP         │ Free MCP       │ Free MCP│
@@ -246,11 +246,9 @@ PRs welcome! Ideas for additional free providers:
 
 ## 📜 License
 
-```
 MIT License — Free for everyone, forever.
 
 Copyright (c) 2026 Vakandi
-```
 
 <div align="center">
   <br/>
